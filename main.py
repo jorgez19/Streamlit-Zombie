@@ -11,7 +11,7 @@ col1, col2 = st.columns([1, 5], gap="Large")
 # Logo
 image = Image.open("images/symbol.png")
 with col1:
-    st.image(image, caption="Pandemic Symbol", width=120)
+    st.image(image, width=120)
 with col2:
     st.title('2033 Necrovirus "Zombie" Outbreak Info')
 
